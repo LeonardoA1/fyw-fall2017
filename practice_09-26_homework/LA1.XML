@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/caramessina/remiXML/master/remiXML.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet href="https://raw.githubusercontent.com/caramessina/remiXML/master/visualize_remiXML.xsl"?>
+<remiXML>
+    <metadata>
+        <original-title>The Lottery</original-title>
+        <doc-title>The Lottery Remix</doc-title>
+        <original-writer ID=SJ"Shirley Jackson"></original-writer>
+        <remixer ID=LA1"Leonardo Acevedo"></remixer>
+    </metadata>
+    <original>
+    
+        <p> The children assembled first, of course. School was recently over for the summer, and the feeling of liberty sat uneasily on most of them; 
+        they tended to gather together quietly for a while before they broke into boisterous play<question playID="Q1" remixerID="LA1">. and their talk was still of the classroom and the teacher, of books and reprimands. 
+        Bobby Martin had already stuffed his pockets full of stones<questionID="Q2" remixerID="LA1">, and the other boys soon followed his example<analysis playID="A1" remixerID="LA1">, selecting the smoothest and roundest stones; Bobby and 
+        Harry Jones and Dickie Delacroix-- the villagers pronounced this name "Dellacroy"--eventually made a great pile of stones in one corner of the square and 
+        guarded it against the raids of the other boys. The girls stood aside, talking among themselves, looking over their shoulders at rolled in the dust or clung 
+        to the hands of their older brothers or sisters.</p>
+        
+        <p> Soon the men began to gather. surveying their own children, speaking of planting and rain, tractors and taxes. They stood together, away from the pile of stones in the corner, 
+        and their jokes were quiet and they smiled rather than laughed <analysis playID="A2" remixerID="LA1">. The women, wearing faded house dresses and sweaters, came shortly after their menfolk. They greeted 
+        one another and exchanged bits of gossip as they went to join their husbands. Soon the women, standing by their husbands, began to call to their children, 
+        and the children came reluctantly, having to be called four or five times. Bobby Martin ducked under his mother's grasping hand and ran<expand playID="E1" remixer ID="LA1">, laughing, back to the pile of stones. 
+        His father spoke up sharply<expand playID="E2" remixerID="LA1">, and Bobby came quickly and took his place between his father and his oldest brother. </p>
+        
+        <p> The lottery was conducted--as were the square dances, the teen club, the Halloween program--by Mr. Summers. who had time and energy to devote to civic activities. 
+        He was a round-faced, jovial man and he ran the coal business, and people were sorry for him. because he had no children and his wife was a scold<question playID="Q3" remixerID="LA1">. When he arrived in the square, 
+        carrying the black wooden box, there was a murmur of conversation among the villagers, and he waved and called. "Little late today, folks." The postmaster, Mr. Graves, followed him, 
+        carrying a three- legged stool, and the stool was put in the center of the square and Mr. Summers set the black box down on it. The villagers kept their distance, leaving a space between 
+        themselves and the stool. and when Mr. Summers said, "Some of you fellows want to give me a hand?" there was a hesitation before two men. Mr. Martin and his oldest son, Baxter. came forward 
+        to hold the box steady<transform playID="T1" remixerID"LA1"> on the stool while Mr. Summers stirred up the papers inside it. <question playID="Q4" remixerID="LA1"> </p>
+        
+    </original>
+    <play>
+    <analysis playREF="A1"> I believe that these children have been warped by the constant death that they are forced to revisit. It has now become common place for this tragedy to happen
+        and that is why these children are calm. They are even contributing to this and having fun with the death of someone because they believe that this is a natural occurance in life. 
+        The first child even seemed excitedd for this.</analysis>
+        
+    <analysis playREF="A2"> I believe that this is the first instance where the reader is given a hint that there is something wrong with this village. In the beginning, 
+        the author writes about children leaving school for the summer and going out to play, then the father's come outside. This can be considered a common occurance in a community, however the line
+        ends with 'they smiled rather than laughed'. By saying the word rather SJ caused a change in the reader. The reader beings to question why the men only smiled, why did they not laugh? this causes
+        readers to wonder whats wrong. </analysis>
+    <expand playREF="E1">With every mother wishing that they could hold their child in the palms of their hands for just one more second</expand>     
+   
+   <expand playREF="E2">As he wanted the family to be together before the festivities began</expand>
+   
+   <question playREF="Q1"> Why are the kids in 'boisterous play if they know what is going to happen? Are they playing because it may be there last or becasue they are tramitized?</question>
+   
+   <question playREF="Q2"> Is this kid excited that someone is going to be stoned to death?</question> 
+   
+   <question playREF="Q3"> Why was your wife a Scold? Is she mean to Mr. Summers or other people?</question>
+   
+   <question playREF="Q4">Why (instead of going through all this trouble to set a stool) dont these people buy a new stool?</question>
+   
+   <transform playREF="T1">... Only to rush towards the wooden box, snatch it out of Mr. SUmmers grasp and run. They just ran, as fast as they could, as far as they could, and as hard as they 
+   could. However, it was not long after that they were captured before they left the confines of the village. Becuase of this blatant disreguard of the rules of the lottery, they were the only
+   ones forced to take part in the Lottery. Baxter was chosen, to the behest of his father. And while everyone gathered at least one stone at the center of their hands, they all felt a soft calmness
+   through the air. The feeling was relief. Everyone in the village found confort, not only in the fac that they could see the faces of thier loved ones for another day, but also by the fact that
+   they understand they are not the only ones who believe that this is a horrific system and a horrible way to live.</transform>
+    </play>
+</remiXML>
